@@ -80,7 +80,7 @@ const Register = () => {
       const res = await data.json();
 
       if (res.status === 201) {
-        toast.success("Registration Successfully done 🙌🥳🎉👏! Hooray", {
+        toast.success("Registration Successfully", {
           position: "top-center",
         });
         setInpval({
